@@ -1,4 +1,4 @@
-console.log("printjfjfljfd")
+/*console.log("printjfjfljfd")
 //Doubt
 var newYear2022 = ( function(y) { return y*y;}(2022)); 
 console.log(newYear2022)
@@ -75,3 +75,48 @@ function primenum(num){
 primenum(9)
 
 //console.log(sumofalldigits(123))
+
+
+let ary = [1,12,3,4,5,5,6,5]
+for(i =1; i< ary.length;i++){
+    console.log(ary[i])
+}
+
+console.log("16 th May")
+{
+    let obj  = 4;
+    obj = 100
+    console.log(obj)
+}
+var obj = {
+    name :"Manthan"
+    
+  }
+
+  var obj = 5
+  
+  console.log(obj.name)
+  //Object.freeze(obj)
+  obj.name = 5;
+  console.log(obj.name)
+  obj.surnane = "ksdfldjf";
+  console.log(obj.surnane)
+ 
+are =  [35,3,4,88,9,10,21,5,6]
+let cnt = 0
+are.sort()
+console.log(are)
+for( i = 0; i < are.length;i++){
+    if(are[i] == (are[i+1]-1)){
+        cnt++
+    }
+    else{
+        cnt =1;
+    }
+
+    
+}
+console.log("count "+cnt) */
+
+ary = [35,3,4,88,9,10,21,5,6]
+console.log(ary.sort())
